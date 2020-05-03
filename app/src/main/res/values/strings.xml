@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Irinde</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_covid">Corona</string>
+    <string name="title_isiyose">Isi yose</string>
+    <string name="title_amakuru">Amakuru</string>
+    <string name="telefoni">Telefoni</string>
+    <string name="ubutabazi">Ubutabazi</string>
+    <string name="ohereza">Ohereza</string>
+    <string name="locationwarn">Amakuru wujuje arifashishwa mu kukugezaho ubufasha ukeneye</string>
+    <string name="sobanura_ubutabazi">Uzuza umwirondoro wawe unasobanure ubufasha bukenewe</string>
+    <string name="amazina">Amazina</string>
+    <string name="phone">Numero ya telefoni</string>
+    <string name="ubufasha">Sobanura ubutabazi ukeneye</string>
+
+    <!--For Corona view-->
+    <string name="gukingirwakuvurwa">Ifite urukingo n\'umuti?</string>
+    <string name="header_covid_summary">
+        Inshamake kuri corona virus
+    </string>
+    <string name="body_covid_summary">
+        Corona virusi ni  umuryango mugari wa amavirusi atera uburwayi buva ku bworoheje kugera ku bukomeye nka Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).
+        \n
+        Kuwa 7 mutarama,nibwo yaje kugaragara mu bantu ariko hari hataramenyekana iyo ariyo gusa iza kugaragara ko iri mu muryango wa za coronavirusi mu bushinwa.
+        Iyi virusi byaje kugaragara ko ituruka mu biryo biribwa byo mu nyanja mu isoko  ry’inyamaswa mu mujyi wa Wuhan,Mu ntara ya Hubei mu bushinwa.
+    </string>
+    <string name="header_covid_info">Dusobanukirwe Coronavirus</string>
+    <string name="body_covid_info">
+        Coronavirus ikwirakwira  binyuze mu matembabuze ashobora guhererekanywa hagati y’abantu anyuze mu zuru,\n
+        umunwa  cyangwa mu gihe abantu begeranye umwe akoroye yakwanduza abamwegereye.\n\n\n
+        Iyo ayo matembabuzi ageze ku kintu gifatika uwo muntu yaranduye nuko umwegereye akaza
+        akagikoraho akaba yakora nko mu maso,ku zuru cyangwa umunwa ahita yandura.\n\n
+
+        Birashoboka kandi ko umuntu uyirwaye ataragaragaza ibimenyetso yakwanduza abandi.\n
+
+        Hashingiwe ku bimenyetso bya amavirus yo mu muryango umwe(Coronavirus) nka MERS-CoV,\n
+        birizerwa ko ibimenyetso byayo byagaragara hagati iminsi 2 kugera munsi wa 14 umuntu amaze kwandura.\n\n
+        Birenzeho,uramutse warageze mu bihugu byagaragayemo iyi virus ukaba ufite ibimenyetso byiyo ndwara,\n
+        wamenyesha urwego rw’ubuzima rukwegereye cg ugahamagara 114
+    </string>
+    <string name="header_covid_kwirinda_kwanduza">
+        Ese ni iki wakora uramutse urwaye nuko wakwirinda kwanduza abandi?
+    </string>
+    <string name="body_covid_kwirinda_kwanduza">
+    • Ingingo zijyanye no kwirinda kubageze ahantu hagaragaye icyorezo cya COVID-19\n\n
+    • Kuguma ahantu ha wenyine(mu rugo) niba wumva utameze neza,ufite umuriro uri munsi cg hejuru ya 37.3c\n,
+        kandi urwaye  umutwe,nibyiza kuguma mu rugo ngo urebe ko woroherwa\n\n
+    • Nubona ugize ibimenyetso birimo nko kubabara,gukorora cyangwa guhumeka bigoranye,\
+        egera urwego rw’ubuzima ako kanya.kandi ugaragaze ahantu hose uherutse kujya.
+    </string>
+    <string name="header_covid_kwirinda_gukwirakwiza">Gute twakwirinda gukwirakwiza COVID-19?</string>
+    <string name="body_covid_kwirinda_gukwirakwiza">
+
+Niba wumva urwaye cyangwa wikekaho kugira ibimenyetso bya COVID-19,Kurikiza amabwiriza akurikira kugirango wirinde kwanduza abantu mu rugo cyangwa b’abaturanyi.
+    • Niba ubona ibimenyetso egera urwego rw’ubuzima ako kanya,kandi ubamenyeshe aho uherutse gutemberera hose\n\n
+    • Ntujye ahantu hahurira abantu benshi urugero: Ku kazi,ku ishuri,isoko,Urusengero wirinde gukoresha ingendo rusange\n\n
+    • Ntugire aho ujya,ugume mu rugo,kereka ugiye kugana urwego rw’ubuzima.\n\n
+    • Niba ubona ufite ibimenyetso kandi ubana n’abandi,hindura icyumba kandi nibyiza gukoresha ubwogero butandukanye\n\n
+    • wirinde gusangira n’abandi  ibikoresho byo mu rugo nka: amasahani kandi numara kubikoresha ubyoze neza n’amazi meza n’isabune\n\n
+    • Niba ufite agapfukamunwa,kambare mu gihe uri kumwe n’abandi cyangwa uri kumwe n’umukozi w’urwego rw’ubuzima\n\n
+    • niba uri gukorora,pfukisha umunwa n’amazuru akantu kabugenewe.\nubundi uhite ukajugunya maze ukarabe intoki zawe n’amazi meza hamwe n’isabune \n
+        cyangwa ukoreshe imiti yabugenewe yica udukoko(hand sanitizer) igizwe na 60% bya alcohol.
+    • Ako kanya hita ugana abaganga igihe ubona ibimenyetso birushaho kuba gukomera.\n
+        Urugero: igihe guhumeka wumva biri kukugora. \n\nhamagara Inomero itishyurwa 114 cyangwa ugane abakozi b’ubuzima bakwegereye.
+    </string>
+    <string name="header_covid_kwirinda_wegereye_umurwayi">
+        Uburyo bwo kwirinda wegeranye n’umurwayi wa Coronavirus?
+    </string>
+    <string name="body_covid_kwirinda_wegereye_umurwayi">
+Niba ukeka ko waba wakoranyeho n’umuntu urwaye COVID-19 cg ukurikiranywa ko yaba ayirwaye kurikiza ubu buryo wirinda:
+    • Nibyiza ko ukurikirana ubuzima bwawe kuva ku munsi wa mbere wabonaniyeho nuwo muntu
+    • Komeza ukurikirana ibi bimenyetso ureba ko hari ibyo ugira:
+        ◦ Kubabara\n
+        ◦ Gukorora\n
+        ◦ guhumeka bigoranye\n
+        ◦ kubabara mu muhogo\n\n
+
+
+    • Mu gihe ugize kimwe muri ibyo bimenyetsa wahamagara \n inomero itishyiurwa 114 cg ukegera urwego rw’ubuzima rukwegereye.
+    </string>
+    <string name="header_covid_ibyago_kwandura">
+        Ninde ufite ibyago byo kwandura?
+    </string>
+    <string name="body_covid_ibyago_kwandura">
+        Umuntu wese utuye mu gice cyagaragawemo iyi virus cyangwa \n yarabonanye n’uherutse mu gice yagaragayemo afite ibyago byo kuba yakwandura.\n\n
+        Nubwo abantu bakuze,ab’imyaka yose babana n’uburwayi bw’umutima,ibihaha,Isukari nyinshi na Kanseri.\n
+        Kuri abo bafite ibyago byinshi byo kwandura COVID-19,ni byiza ko bitwararika birinda ko bakwandura.\n\n
+            • Gusiga umwanya byibura Metero 1 hagati yawe nundi muntu\n\n
+            • karaba intoki kenshi kandi neza\n\n
+            • Irinde kujya ahantu hahurira abantu benshi\n\n
+            • Irinde ingendo zitara ngombwa\n\n
+            • guma mu rugo kenshi gashoboka mu kwirinda ibyo byago\n\n
+    </string>
+    <string name="source_covid_ibyago_kwandura">https://rbc.gov.rw/index.php?id=711</string>
+    <string name="covid_testing">Gusuzuma biri gukorwa muri Laboratwari \n za leta n’ibikoresho bikoreshwa mu kuyipima</string>
+    <string name="covid_treatment">
+        Ntarukingo cyangwa umuti biraboneka mu kurinda \n cyangwa kuvura COVID-19.\n
+        Abarwayi bitabwaho harwanywa ibimenyetso bagaragaza (gufashwa kuzanzamuka)</string>
+    <string name="header_covid_kwita_abarwayi">
+        Amakuru ku bita k’ubuzima bw’abarwayi
+    </string>
+    <string name="body_covid_kwita_abarwayi">
+        Amakuru akurikira agenewe gufasha abakora mu rwego rw’ubuzima  \n mu kumenya ibimenyetso ku warwaye COVID-19.\n\n
+        Ni ngenzi cyane ku hantu hasuzumirwa nka:ibibuga by’indege.\n
+        Mu gihe ntaburyo bwo gukiza iyi virusi,uburyo kwitabwaho ako kanya Ni ngenzi ku ukurikiranweho iyo virusi.\n\n
+
+        Umukozi w’urwego rw’ubuzima agomba kureba neza \naho uwo ari kwitaho yagiye ajya(travel history) agaragaza ibimenyetso nko kubabara,\n
+        gukorora, na/cyangwa guhumeka bigoranye.\n\n
+
+        Bagomba kwimenyereza kandi ibimenyetso biranga COVID-19 mu kubafasha gusuzuma iyi virusi.\n
+        Ni ngombwa kandi ko umukozi w’urwego rw’ubuzima ako kanya ahita akoresha uburyo bwo kurwanya \n
+        iyo virusi igihe umurwayi akurikiranyweho gufatwa na COVID-19\n\n
+        kubindi bisobanuro www.cdc.gov/coronavirus/2019-ncov/hcp/hcp-personnel-checklist.html
+    </string>
+    <string name="footer_covid_kwita_abarwayi">http://www.cdc.gov/coronavirus/2019-ncov/hcp/hcp-personnel-checklist.html</string>
+    <string name="source_covid_kwita_abarwayi">https://rbc.gov.rw/index.php?id=711</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

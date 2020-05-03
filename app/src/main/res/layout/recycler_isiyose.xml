@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/texbox"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:paddingBottom="3dp"
+    >
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/tvRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:text=""
+        android:textSize="18dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TableRow>
+    <TextView
+        android:id="@+id/tvAffected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:textSize="16dp"
+        android:text=""
+        android:textColor="#0000ff"
+        android:lineSpacingExtra="1.5dp"/>
+    <TextView
+        android:id="@+id/tvRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:textSize="16dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:lineSpacingExtra="1.5dp"/>
+    <TextView
+        android:id="@+id/tvDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:textSize="15dp"
+        android:text=""
+        android:textColor="#ff0000"
+        android:lineSpacingExtra="1.5dp"/>
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <!--<TextView
+                android:id="@+id/tvSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:text="Inkuru igihe.com"
+                app:srcCompat="@drawable/message_icon" />-->
+
+            <TextView
+                android:id="@+id/tvRegdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:text=""
+                app:srcCompat="@drawable/message_icon" />
+            <Button
+                android:id="@+id/btnBika"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Bika"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_marginRight="25dp"
+                android:visibility="gone"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

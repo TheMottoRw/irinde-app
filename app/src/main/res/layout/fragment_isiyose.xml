@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Covid"
+    android:background="@color/bgwhite">
+
+    <TextView
+        android:id="@+id/tvAmakuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amakuru kuri corona virus isi yose"
+        android:visibility="gone"/>
+<LinearLayout
+    android:id="@+id/searchView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="@drawable/texbox"
+        android:hint="Shakisha igihugu"
+        android:paddingLeft="20dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:textSize="14dp"/>
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="Shaka"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/btnFilterByDate"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="Itariki"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:layout_marginLeft="5dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchView"
+        android:stretchColumns="3"
+        android:id="@+id/tblLayout">
+
+
+            <TextView
+                android:id="@+id/tvAffectedColor"
+                style="@style/tvcolorpreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="Abarwaye" />
+
+            <TextView
+                android:id="@+id/tvRecoveredColor"
+                style="@style/tvcolorpreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:text="Abakize" />
+
+            <TextView
+                android:id="@+id/tvDeathsColor"
+                style="@style/tvcolorpreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:text="Abapfuye" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tblLayout"
+        android:gravity="center_horizontal"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerIsiyose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSelectedDate"
+        android:layout_marginBottom="50dp"/>
+</RelativeLayout>
